@@ -3,13 +3,9 @@ var t1,t2,t3,t4,t5;
 function showTabs() {
 
   var w1=window.open("http://www.google.com");
-
   var w2=window.open("http://www.flipkart.com");
-
   var w3=window.open("http://www.weboniselab.com");
-
   var w4=window.open("https://www.amazon.com/");
-
   var w5=window.open("https://www.snapdeal.com/");
 
   t1=setTimeout(function() {
