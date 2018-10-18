@@ -1,9 +1,7 @@
 function add() {
 
   var no1=document.getElementById("no1").value;
-
   var no2=document.getElementById("no2").value;
-
   var ans;
 
     if(check()==true) {
@@ -16,9 +14,7 @@ function add() {
 function sub() {
 
  var no1=document.getElementById("no1").value;
-
  var no2=document.getElementById("no2").value;
-
  var ans;
 
    if(check()==true) {
@@ -31,7 +27,6 @@ function sub() {
 function check() {
 
     var no1=document.getElementById("no1").value;
-
     var no2=document.getElementById("no2").value;
 
     if(no1=="" || no2=="") {
